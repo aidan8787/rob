@@ -6,8 +6,8 @@ public class Robot extends TimedRobot {
   private PS4Controller p4 = new PS4Controller(1);
   private double y1 = 0;    
   private double x1 = 0; 
-  private double deadzone1=.3;
-  private double deadzone2=.3;
+  private double deadzone1=.1;
+  private double deadzone2=.1;
   private double aceleration=.25;
   @Override
   public void robotInit() {
